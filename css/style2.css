@@ -1,0 +1,153 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.sapxep {
+    margin-top: 10px;
+}
+
+.khungsp {
+    border: none;
+    padding: 0;
+}
+
+.danh-muc {
+    border: 1px solid #0dcaf0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    background: #fff;
+}
+
+.hop-gia {
+    border: 1px solid #0dcaf0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    background: #fff;
+}
+
+.danh-muc {
+    background: #fff;
+}
+
+.dm-tieu-de {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    margin-bottom: 8px;
+}
+
+.dm-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dm-list li a {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    color: #2b3fb5;
+    text-decoration: none;
+}
+
+.dm-list li a:hover {
+    color: #5a9a3c;
+}
+
+.nhom-sp {
+    margin-top: 16px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #0dcaf0;
+}
+
+.sp {
+    border: 1px solid gray;
+    height: 100%;
+    border-radius: 12px;
+    background-color: burlywood;
+}
+
+.sp img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.sp .gia {
+    color: #e91e8c;
+}
+
+.khung-bao {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    background: #fff;
+}
+
+.sp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.sp h6 {
+    min-height: 2.6em;
+}
+
+.sp .mua {
+    margin-top: auto;
+    padding-top: 8px;
+}
+
+.sp .mua .btn {
+    width: auto;
+}
+
+.sp .giam-gia {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.dm-list li a.dm-active {
+    color: #5a9a3c;
+    font-weight: bold;
+}
+
+.khong-co-sp {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.sapxep:empty {
+    display: none;
+}
+
+.col-md-3>.khung-bao {
+    margin-top: 0;
+}
+.khung-timkiem {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    background-color:honeydew ;
+}
+
+@media (max-width: 575.98px) {
+    header { height: auto !important; min-height: 0; padding: 12px !important; gap: 10px; flex-wrap: wrap; }
+    header img { max-width: 100%; height: auto !important; max-height: 90px; object-fit: contain; }
+    header a { margin-left: 0 !important; font-size: 1.25rem !important; text-align: center; }
+    .navbar { padding: .5rem; }
+    .navbar-nav { flex-direction: row; flex-wrap: wrap; justify-content: center; width: 100%; }
+    .navbar-nav .nav-link { padding: .45rem .55rem; font-size: .9rem; }
+    .sp { height: 100%; }
+    .sp img { width: 100%; height: 150px; object-fit: contain; }
+    .sp .mua .btn { width: 100%; }
+    .khung-bao { padding: 8px; }
+    .danh-muc, .hop-gia { padding: 9px; }
+    footer { line-height: 1.5; }
+}
